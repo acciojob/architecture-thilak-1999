@@ -1,16 +1,138 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Wonders</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .imageContainer {
+            width: 100%;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table td {
+            padding: 15px;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+        
+        table img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 3px;
+            transition: transform 0.3s ease;
+        }
+        
+        table img:hover {
+            transform: scale(1.03);
+        }
+        
+        .text-content {
+            line-height: 1.6;
+            text-align: justify;
+        }
+        
+        .text-content h2 {
+            color: #3498db;
+            margin-top: 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <h1>Architectural Marvels Through the Ages</h1>
+        
+        <div class="imageContainer">
+            <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1100&q=80" alt="Modern Architecture">
+        </div>
+        
+        <table>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Ancient Greek Architecture">
+                </td>
+                <td width="600" class="text-content">
+                    <h2>Ancient Architecture</h2>
+                    <p>Ancient architecture represents some of humanity's earliest and most impressive structural achievements. From the pyramids of Egypt to the Parthenon in Greece, these structures were not only functional but also deeply symbolic. Ancient architects mastered techniques like post-and-lintel construction and developed sophisticated understanding of geometry and proportion that still influence design today. Many ancient structures were built to honor gods or commemorate rulers, using locally available materials like stone, mud brick, and wood.</p>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Roman Colosseum">
+                </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Gothic Cathedral">
+                </td>
+                <td width="600" class="text-content">
+                    <h2>Medieval Architecture</h2>
+                    <p>The Middle Ages saw the development of Romanesque and Gothic styles, particularly in religious architecture. Gothic cathedrals with their pointed arches, ribbed vaults, and flying buttresses reached incredible heights, both literally and figuratively. These structures were designed to inspire awe and direct the viewer's gaze heavenward. Meanwhile, castles evolved from simple wooden structures to massive stone fortresses with sophisticated defensive features. Medieval architecture reflected the social and religious priorities of the time, with the church being the most important patron of the arts.</p>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1527061011665-3652c757a4d4?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Medieval Castle">
+                </td>
+            </tr>
+            <tr>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Modern Skyscraper">
+                </td>
+                <td width="600" class="text-content">
+                    <h2>Contemporary Architecture</h2>
+                    <p>Modern architecture embraces new materials and technologies to create buildings that are both functional and artistic. The 20th century saw the rise of skyscrapers made possible by steel frames and elevators, while contemporary architects experiment with sustainable materials and computer-aided designs. Styles range from the minimalism of Mies van der Rohe to the expressive forms of Frank Gehry. Today's architecture increasingly focuses on sustainability, with green roofs, solar panels, and energy-efficient designs becoming standard. The digital age has also brought parametric design, allowing for complex, algorithm-generated forms that were previously impossible to conceive or construct.</p>
+                </td>
+                <td width="200">
+                    <img src="https://images.unsplash.com/photo-1486175060817-5663aacc6655?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Sustainable Architecture">
+                </td>
+            </tr>
+        </table>
+        
+        <footer>
+            <p>&copy; 2023 Architectural Wonders | Designed with passion for built environments</p>
+        </footer>
+    </div>
 </body>
-
 </html>
